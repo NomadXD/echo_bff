@@ -19,8 +19,8 @@ spec:
       schemaFilePath: bff_service_openapi.yaml
   outbound:
     serviceReferences:
-    - name: choreo:///apifirst/jrbr/uconvn/proxy/v1.0/PUBLIC
-      connectionConfig: 01eee77c-04f2-1190-80d3-905ce3f92bbe
+    - name: choreo:///apifirst/jrbr/aalmgw/5c69c/v1.0/PUBLIC
+      connectionConfig: 01eee784-1ccd-19b0-8b3f-22d41b18be90
       env:
       - from: ServiceURL
         to: SERVICE_URL
