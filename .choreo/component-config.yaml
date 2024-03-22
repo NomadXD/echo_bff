@@ -17,17 +17,4 @@ spec:
       # This is mandatory if the endpoint type is set to REST or GraphQL.
       context: /
       schemaFilePath: bff_service_openapi.yaml
-  outbound:
-    serviceReferences:
-    - name: choreo:///apifirst/jrbr/aalmgw/5c69c/v1.0/PUBLIC
-      connectionConfig: 01eee784-1ccd-19b0-8b3f-22d41b18be90
-      env:
-      - from: ServiceURL
-        to: SERVICE_URL
-      - from: ConsumerKey
-        to: CLIENT_ID
-      - from: ConsumerSecret
-        to: CLIENT_SECRET
-      - from: TokenURL
-        to: TOKEN_URL
 
